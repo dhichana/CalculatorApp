@@ -14,7 +14,7 @@ public class App {
         System.out.println("M -> Multiplication");
         System.out.println("D -> Division");
         System.out.println("R -> Modulus");
-        System.out.println("E -> to quit");
+        System.out.println("Q -> to quit");
         System.out.println("+===========================+");
         System.out.println();
         while(true){
@@ -78,7 +78,7 @@ public class App {
                     }
                     System.out.println();
                     break;
-                case 'E':
+                case 'Q':
                     in.close();
                     System.exit(0);
                     break;
